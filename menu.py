@@ -1,15 +1,15 @@
 Python 2.7.18 (v2.7.18:8d21aa21f2, Apr 20 2020, 13:25:05) [MSC v.1500 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license()" for more information.
->>> def menu():
-	n_1=input("Introuzca número 1: ")
-	n_2=input("Introduzca número 2: ")
+>>> def ejercicio_6():
+	n_1=input("Introuzca nÃºmero 1: ")
+	n_2=input("Introduzca nÃºmero 2: ")
 	print "*******************************************"
 	print "*                  MENU                   *"
 	print "*******************************************"
 	print "1.SUMA"
 	print "2.RESTA"
-	print "3.MULTIPLICACIÓN"
-	print "4.DIVISIÓN"
+	print "3.MULTIPLICACIÃ“N"
+	print "4.DIVISIÃ“N"
 	opcion=input("Teclee la opcion que quiera: ")
 	if opcion==1:
 		resultado=n_1+n_2
@@ -19,12 +19,12 @@ Type "help", "copyright", "credits" or "license()" for more information.
 		resultado=n_1*n_2
 	if opcion==4:
 		if n_2==0:
-			print "Introduce un número distinto de 0"
-			n_0=input("Número nuevo: ")
+			print "Introduce un nÃºmero distinto de 0"
+			n_0=input("NÃºmero nuevo: ")
 			resultado=n_1/n_0
 		else:
 			resultado=n_1/n_2
 	print "El resultado es", resultado
 
 	
->>> menu()
+>>> ejercicio_6()
