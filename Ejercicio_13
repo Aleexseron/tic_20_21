@@ -1,0 +1,6 @@
+def ejercicio_13:
+    piramide=int(input("Inserte altura de la pirámide: "))
+    for cont in range(0,piramide):
+        print ((piramide-cont)/2)*("  "), cont*(" *"), ((piramide-cont)/2)*(" ")
+
+ejercicio_13()
