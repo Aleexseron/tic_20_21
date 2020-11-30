@@ -1,0 +1,11 @@
+def ejercicio_11():
+    p=raw_input("Inserte palabra para contar: ")
+    n=input("Inserte número de caracteres de la plabara: ")
+    l=len(str(p))
+    print "Tu palabra tiene", l, "caracteres."
+    if l==n:
+        print "La palabra tiene el mismo número de caracteres que el número insertado."
+    else:
+        print "La palbra no tiene el mismo número de caracteres que el número insertado."
+
+ejercicio_11()
