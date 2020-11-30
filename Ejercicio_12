@@ -1,0 +1,9 @@
+def ejercicio_12():
+    suma=0
+    n=str(input("Inserte número para sumar sus cifras: "))
+    f=len(n)
+    for cont in range(0,f):
+        suma=suma+int(n[cont])
+    print "La suma de los dígitos es:", s
+
+ejercicio_12()
