@@ -1,0 +1,10 @@
+def ejercicio_15():
+	abecedario="abcdefghijklmnopqrstuvwxyz"
+	palabra=raw_input("Inserte palabra a clasificar en letras minúsculas: ")
+	pa=palabra[0:1]
+	print pa
+	for i in range(0,25):
+		if pa==abecedario[i:(i+1)]:
+			print i
+     
+ejercicio_15()
